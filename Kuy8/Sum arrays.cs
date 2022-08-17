@@ -42,3 +42,14 @@ public class Kata
         return summa;
     }
 }
+
+
+/*лучшее решение (вроде бы)
+using System.Linq;
+
+public class Kata
+{
+  public static double SumArray(double[] array) =>
+    array.Sum();
+}
+*/
