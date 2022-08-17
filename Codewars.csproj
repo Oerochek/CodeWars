@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kuy7\Disemvowel Trolls.cs" />
+    <Compile Include="Kuy8\Alarm.cs" />
+    <Compile Include="Kuy8\Thinkful Logic Drills Traffic light.cs" />
     <Compile Include="Kuy8\Sum arrays.cs" />
     <Compile Include="kuy7\sum_without_highest_and_lowest.cs" />
     <Compile Include="Program.cs" />
