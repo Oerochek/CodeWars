@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="kuy7\Shortest Word.cs" />
     <Compile Include="Kuy8\Alarm.cs" />
+    <Compile Include="Kuy8\You Can%27t Code Under Pressure  1.cs" />
     <Compile Include="Kuy8\Thinkful Logic Drills Traffic light.cs" />
     <Compile Include="Kuy8\Sum arrays.cs" />
     <Compile Include="kuy7\sum_without_highest_and_lowest.cs" />
