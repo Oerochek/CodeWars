@@ -33,8 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EPPlus.Core, Version=1.5.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\EPPlus.Core.1.5.4\lib\net46\EPPlus.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +52,11 @@
   <ItemGroup>
     <Compile Include="kuy7\Shortest Word.cs" />
     <Compile Include="Kuy8\Alarm.cs" />
+    <Compile Include="Kuy8\A Needle in the Haystack.cs" />
+    <Compile Include="Kuy8\If you can%27t sleep, just count sheep!!.cs" />
+    <Compile Include="Kuy8\Will there be enough space.cs" />
+    <Compile Include="Kuy8\Will you make it.cs" />
+    <Compile Include="Kuy8\Count of positives  sum of negatives.cs" />
     <Compile Include="Kuy8\You Can%27t Code Under Pressure  1.cs" />
     <Compile Include="Kuy8\Thinkful Logic Drills Traffic light.cs" />
     <Compile Include="Kuy8\Sum arrays.cs" />
@@ -54,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
