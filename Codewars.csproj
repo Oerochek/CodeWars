@@ -50,11 +50,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kuy7\Number of people on the bus.cs" />
+    <Compile Include="kuy7\String ends with.cs" />
     <Compile Include="kuy7\Highest and Lowest.cs" />
     <Compile Include="kuy7\Shortest Word.cs" />
     <Compile Include="Kuy8\Alarm.cs" />
     <Compile Include="Kuy8\A Needle in the Haystack.cs" />
     <Compile Include="Kuy8\Class1.cs" />
+    <Compile Include="Kuy8\Returning Strings.cs" />
+    <Compile Include="Kuy8\Removing Elements.cs" />
     <Compile Include="Kuy8\Return Negative.cs" />
     <Compile Include="Kuy8\Function 1  hello world.cs" />
     <Compile Include="Kuy8\String repeat.cs" />
