@@ -50,9 +50,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kuy7\Highest and Lowest.cs" />
     <Compile Include="kuy7\Shortest Word.cs" />
     <Compile Include="Kuy8\Alarm.cs" />
     <Compile Include="Kuy8\A Needle in the Haystack.cs" />
+    <Compile Include="Kuy8\Class1.cs" />
+    <Compile Include="Kuy8\Return Negative.cs" />
+    <Compile Include="Kuy8\Function 1  hello world.cs" />
+    <Compile Include="Kuy8\String repeat.cs" />
+    <Compile Include="Kuy8\Transportation on vacation.cs" />
     <Compile Include="Kuy8\If you can%27t sleep, just count sheep!!.cs" />
     <Compile Include="Kuy8\Will there be enough space.cs" />
     <Compile Include="Kuy8\Will you make it.cs" />

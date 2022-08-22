@@ -16,28 +16,25 @@ public class Kata
 {
     public static int[] CountPositivesSumNegatives(int[] input)
     {
-        int[] nul = new int[] { };
-        if (input == null || input.Length == 0)
-            return nul;
 
-        else
+        if (input == null || input.Length == 0) return new int[] { };
+
+        int sumnegative = 0;
+        int poscount = 0;
+        for (int i = 0; i < input.Length; i++)
         {
-            int sumnegative = 0;
-            int poscount = 0;
-            for (int i = 0; i < input.Length; i++)
+            if (0 < input[i])
             {
-                if (0 < input[i])
-                {
-                    poscount++;
-                }
-                else if (input[i] < 0)
-                {
-                    sumnegative += input[i];
-                }
+                poscount++;
             }
-            int[] result = new int[] { poscount, sumnegative };
-            return result;
+            else if (input[i] < 0)
+            {
+                sumnegative += input[i];
+            }
         }
+        int[] result = new int[] { poscount, sumnegative };
+        return result;
+
     }
 }
 
