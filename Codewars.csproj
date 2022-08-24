@@ -50,6 +50,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kuy7\Sort Numbers.cs" />
+    <Compile Include="kuy7\Is this a triangle.cs" />
+    <Compile Include="kuy7\Sum of two lowest positive integers.cs" />
+    <Compile Include="kuy7\Make a function that does arithmetic!.cs" />
+    <Compile Include="kuy7\Remove the minimum.cs" />
     <Compile Include="kuy7\Number of people on the bus.cs" />
     <Compile Include="kuy7\String ends with.cs" />
     <Compile Include="kuy7\Highest and Lowest.cs" />
@@ -57,6 +62,9 @@
     <Compile Include="Kuy8\Alarm.cs" />
     <Compile Include="Kuy8\A Needle in the Haystack.cs" />
     <Compile Include="Kuy8\Class1.cs" />
+    <Compile Include="Kuy8\Find the smallest integer in the array.cs" />
+    <Compile Include="Kuy8\Convert a Boolean to a String.cs" />
+    <Compile Include="Kuy8\Messi goals function.cs" />
     <Compile Include="Kuy8\Returning Strings.cs" />
     <Compile Include="Kuy8\Removing Elements.cs" />
     <Compile Include="Kuy8\Return Negative.cs" />
