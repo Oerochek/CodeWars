@@ -50,6 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="kuy5\Best travel.cs" />
+    <Compile Include="kuy5\Weight for weight.cs" />
+    <Compile Include="kuy6\Class1.cs" />
     <Compile Include="kuy7\Sort Numbers.cs" />
     <Compile Include="kuy7\Is this a triangle.cs" />
     <Compile Include="kuy7\Sum of two lowest positive integers.cs" />
