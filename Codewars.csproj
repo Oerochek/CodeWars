@@ -51,6 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="kuy5\Best travel.cs" />
+    <Compile Include="kuy5\What%27s a Perfect Power anyway.cs" />
+    <Compile Include="kuy5\Number of trailing zeros of N.cs" />
     <Compile Include="kuy5\Weight for weight.cs" />
     <Compile Include="kuy6\Class1.cs" />
     <Compile Include="kuy7\Sort Numbers.cs" />
